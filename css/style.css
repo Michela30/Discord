@@ -88,20 +88,16 @@ header > section{
 
 /* MAIN */
 
-main > section{
+/* main > section{
     height: 500px;
-}
+} */
 
 .main-section-four{
     height: 900px;
 }
 
-main > section:nth-of-type(odd){
-    background-color: white;
-}
-
 main > section:nth-of-type(even){
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 main > section{
@@ -110,23 +106,21 @@ main > section{
    
 }
 .section-container {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
-.blue-rectangle{
-    background-color: #1E90FF;
-    border: 3px dashed black;
-    width: 40%;
-    height: 400px;
+.img-main-section{
+    width: 60%;
 }
-.pink-rectangle{
-    background-color: #FFC0CB;
-    border: 3px dashed black;
-    width: 20%;
-    height: 400px;
+
+.text-main-section{
+    width: 35%;
+    padding-top: 25px;
 }
 
 #reverse{
@@ -140,6 +134,9 @@ main > section{
     border: 3px dashed black;
 }
 
+.title-section{
+    text-align: left;
+}
 /* FOOTER */
 
 footer:first-child{
@@ -203,11 +200,21 @@ footer:first-child{
 
 /* DEBUG */
 
-/* .debug .nav-bar-row > *{
+.debug .nav-bar-row > *{
     background-color: #DAA520;
     border: 2px dashed black;
-} */
+}
 
 .debug header >section{
     background-color: #00008B;
+}
+
+.debug .text-main-section{
+    background-color: #FFC0CB;
+    border: 3px dashed black;
+}
+.debug .img-main-section{
+    background-color: #1E90FF;
+    border: 3px dashed black;
+    height: 500px;
 }
