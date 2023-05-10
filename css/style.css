@@ -12,7 +12,7 @@
 }
 
 .container{
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ h1{
 }
 
 p{
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 1.2em;
     line-height: 30px;
 }
@@ -60,7 +60,7 @@ p{
 
 nav ul > li{
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 
@@ -88,10 +88,6 @@ header > section{
 
 /* MAIN */
 
-/* main > section{
-    height: 500px;
-} */
-
 .main-section-four{
     height: 900px;
 }
@@ -106,8 +102,6 @@ main > section{
    
 }
 .section-container {
-    width: 70%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-top: 25px;
@@ -119,7 +113,7 @@ main > section{
 }
 
 .text-main-section{
-    width: 35%;
+    width: 30%;
     padding-top: 25px;
 }
 
@@ -127,16 +121,16 @@ main > section{
     flex-direction: row-reverse;
 }
 
-.green-rectangle{
-    width: 60%;
-    height: 800px;
-    background-color: #228B22;
-    border: 3px dashed black;
+.last-main-section{
+    text-align: center;
 }
 
-.title-section{
-    text-align: left;
+.star-section{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    margin-top: 30px;
 }
+
 /* FOOTER */
 
 footer:first-child{
@@ -217,4 +211,9 @@ footer:first-child{
     background-color: #1E90FF;
     border: 3px dashed black;
     height: 500px;
+}
+
+.debug .last-main-section{
+    background-color: #228B22;
+    border: 3px dashed black;
 }
