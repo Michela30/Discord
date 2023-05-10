@@ -133,44 +133,55 @@ main > section{
 
 /* FOOTER */
 
-footer:first-child{
+.footer-section{
     display: flex;
-    align-items: center;
-    
-}
-
-.container-footer{
-    display: flex;
-    width: 100%;
     background-color: #23272A;
     justify-content: center;
-    padding: 10px 0 20px 0;
+    padding: 50px 0 50px 0;
+}
+.footer-title{
+    font-size: 2em;
+    color: #7086CE;
 }
 
-.pink-footer-box{
-    background-color:#F08080;
-    border: 2px dashed black;
-    height: 500px;
+.lenguage > img{
+    width: 25px;
+}
+
+.first-menu-section{
     width: 20%;
 }
-.blue-footer-box{
-    background-color:#20B2AA;
-    border: 2px dashed black;
+.second-menu-section{
     height: 500px;
     width: 40%;
     display: flex;
 }
 
 .columns{
-    width: calc(100% / 4);
-    border: 2px dashed white;
+    width: calc(100% / 4)
 }
 
+.icons, .lenguage, .columns ul > li{
+    color: white;
+}
+
+#list-title{
+    color: #7289DA ;
+}
+
+.first-menu-section, .second-menu-section{
+    line-height: 40px;
+}
+
+.icons > i{
+    font-size: 1em;
+    padding-right: 20px;
+}
 
 .background-footer{
     background-color: #23272A;
-    padding-top: 25px;
 }
+
 .second-container-footer{
     display: flex;
     justify-content: space-between;
@@ -216,4 +227,16 @@ footer:first-child{
 .debug .last-main-section{
     background-color: #228B22;
     border: 3px dashed black;
+}
+
+.debug .first-menu-section{
+    background-color:#F08080;
+    border: 2px dashed black;
+}
+.debug .second-menu-section{
+    background-color:#20B2AA;
+    border: 2px dashed black;
+    height: 500px;
+    width: 40%;
+    display: flex;
 }
