@@ -12,7 +12,7 @@
 }
 
 .container{
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -57,36 +57,37 @@ p{
     line-height: 30px;
 }
 .logo{
-    width: calc(100% / 6);
     padding-left: 5px;
+    width: 20%;
 }
 .link{
-    width: calc(100% / 2);
+    font-size: 1.5em;
+    width: 40%;
     text-align: center;
     color: white;
 }
 
 .login{
-    width: calc(100% / 6);
+    width: 20%;
     text-align: right;
-    padding-right: 5px; 
+    padding-right: 5px;
 }
 
 .login > .small-button{
     background-color: white;
 }
 
-nav ul > li{
+header nav ul > li{
     display: inline-block;
     padding: 0 10px;
 }
 
 
-header > section{
+.header-background{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,24 +119,21 @@ main > section:nth-of-type(even){
     background-color: #F6F6F6;
 }
 
-main > section{
-    display: flex;
-    align-items: center;
-   
-}
 .section-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    align-items: center;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .img-main-section{
-    width: 60%;
+    width: 40%;
 }
 
 .text-main-section{
-    width: 30%;
+    width: 20%;
     padding-top: 25px;
 }
 
@@ -145,11 +143,13 @@ main > section{
 
 .last-main-section{
     text-align: center;
+    margin-top: 50px;
 }
 
 .star-section{
     background-image: url(../img/stars.svg);
     background-position: center;
+    background-repeat: no-repeat;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -162,6 +162,7 @@ main > section{
 /* FOOTER */
 
 .footer-section{
+    width: 100%;
     display: flex;
     background-color: #23272A;
     justify-content: center;
@@ -180,17 +181,18 @@ main > section{
     width: 20%;
 }
 .second-menu-section{
-    height: 500px;
     width: 40%;
     display: flex;
 }
 
 .columns{
-    width: calc(100% / 4)
+    width: calc(100% / 4);
 }
+
 
 .icons, .lenguage, .columns ul > li{
     color: white;
+    list-style-type: none;
 }
 
 #list-title{
