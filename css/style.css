@@ -8,8 +8,7 @@
 /* GENERAL */
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: 'Merriweather Sans',Arial, sans-serif;
 }
 
 .container{
@@ -17,15 +16,22 @@
     margin: 0 auto;
 }
 
+h1{
+    font-size: 3em;
+}
+
+p{
+    margin-top: 15px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
 
 
 /* HEADER */
 
 .header-first-section{
-    background-color: #ADD8E6;
-    height: 80px;
-    display: flex;
-    align-items: center;
+    background-color: #255EE9;
+    padding-top: 20px;
 }
 
 .nav-bar-row{
@@ -35,38 +41,50 @@
 }
 
 .nav-bar-row >* {
-    background-color: #DAA520;
-    border: 2px dashed black;
     line-height: 30px;
 }
 .logo{
-    width: 15%;
+    width: calc(100% / 6);
     padding-left: 5px;
 }
 .link{
-    width: 30%;
+    width: calc(100% / 2);
     text-align: center;
+    color: white;
 }
 .login{
-    width: 15%;
+    width: calc(100% / 6);
     text-align: right;
-    padding-right: 5px;
+    padding-right: 5px; 
 }
 
+nav ul > li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
 header > section{
-    background-color: #00008B;
-    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .header-second-section{
-    width: 40%;
-    background-color: #EE82EE;
-    border: 3px dashed black;
-    height: 300px;
+    width: 50%;
+    text-align: center;
 }
+.title{
+    color: white;
+}
+.text-title{
+    color: white;
+}
+
 
 /* MAIN */
 
@@ -184,3 +202,12 @@ footer:first-child{
 }
 
 /* DEBUG */
+
+/* .debug .nav-bar-row > *{
+    background-color: #DAA520;
+    border: 2px dashed black;
+} */
+
+.debug header >section{
+    background-color: #00008B;
+}
