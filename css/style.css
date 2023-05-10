@@ -187,14 +187,10 @@ main > section{
     justify-content: space-between;
     width: 60%;
     margin: 0 auto;
-    height: 80px;
-    background-color: #7FFFD4;
     padding: 20px 0 ;
 }
 
 .logo-footer{
-    background-color: #FFC0CB;
-    border: 1px dashed black;
     padding: 5px
 }
 .button{
